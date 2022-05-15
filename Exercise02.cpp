@@ -17,11 +17,11 @@ int main() {
    // 1. Create a dynamic Rectangle type variable (pointer)
   Rectangle* R1;
    // 2. Create a dynamic Rectangle Object set the length and width that was input from the keyboard
-  R1 = new Rectangle();
+  R1 = new Rectangle(length,width);
    // 3. Create a dynamic Circle type variable (pointer)
   Circle* C1;
    // 4. Create a dynamic Circle Object set radius that was input from the keyboard
-  C1 = new Circle();
+  C1 = new Circle(radius);
    // 5. Call the display method of the Rectangle Object
    R1-> display();
    
